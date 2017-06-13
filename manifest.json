@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Refugees are humans",
+    "version": "1.0",
+    "description": "It replaces the occurences of 'refugee', 'refugees' to 'human', 'humans'",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js": [
+                "replace.js"
+            ],
+            "run_at": "document_end",
+            "all_frames": true
+        }
+    ]
+}
