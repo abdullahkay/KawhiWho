@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "Refugees are humans",
+    "name": "KawhiWho",
     "version": "1.0",
-    "description": "It replaces the occurences of 'refugee', 'refugees' to 'human', 'humans'",
+    "description": "It replaces the occurences of 'kawhi', 'kawhi leonard' to 'number 2', 'number 2'",
     "content_scripts": [
         {
             "matches": [
